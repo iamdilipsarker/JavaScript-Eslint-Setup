@@ -1,6 +1,6 @@
 //Install Dev Dependencies
 /* yarn add -D eslint prettier
-npx install-peerdeps --dev eslint-config-airbnb-base
+npx install-peerdeps or yarn add --dev eslint-config-airbnb-base
 yarn add -D eslint-config-prettier eslint-plugin-prettier */
 
 //Setup Linting Configuration file
