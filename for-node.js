@@ -16,17 +16,21 @@
   },
   "eslint.alwaysShowStatus": true
   //config related to code formatting end
-} */
+} 
+*/
 
 //Install Dev Dependencies
-/* yarn add -D eslint prettier
+/*
+ yarn add -D eslint prettier
 npx install-peerdeps --dev eslint-config-airbnb-base
-yarn add -D eslint-config-prettier eslint-plugin-prettier */
+yarn add -D eslint-config-prettier eslint-plugin-prettier 
+*/
 
 //Setup Linting Configuration file
 // Create a .eslintrc.json file in the project root and enter the below contents:
 
-/* {
+/* 
+{
   "extends": ["prettier", "airbnb-base"],
   "parserOptions": {
     "ecmaVersion": 12
@@ -51,4 +55,5 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier */
     ]
   },
   "plugins": ["prettier"]
-} */
+} 
+*/

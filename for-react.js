@@ -1,6 +1,6 @@
 //vs code workspace settings
-
-/* {
+/* 
+{
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnType": true,
@@ -27,19 +27,23 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   }
-} */
+} 
+*/
 
 // Install Dev Dependencies
 
-/* yarn add -D prettier
+/*
+ yarn add -D prettier
 yarn add -D babel-eslint
 npx install-peerdeps --dev eslint-config-airbnb
-yarn add -D eslint-config-prettier eslint-plugin-prettier */
+yarn add -D eslint-config-prettier eslint-plugin-prettier 
+*/
 
 //Setup Linting Configuration file
 // Create a .eslintrc.json file in the project root and enter the below contents:
 
-/* {
+/*
+ {
   "extends": [
     "airbnb",
     "airbnb/hooks",
@@ -85,4 +89,5 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier */
     ]
   },
   "plugins": ["prettier", "react", "react-hooks"]
-} */
+} 
+*/
