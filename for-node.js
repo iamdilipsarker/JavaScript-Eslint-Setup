@@ -1,6 +1,26 @@
+//vs code workspace settings
+/* 
+{
+   //config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "[javascript]": {
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true
+  //config related to code formatting end
+} */
+
 //Install Dev Dependencies
 /* yarn add -D eslint prettier
-npx install-peerdeps or yarn add --dev eslint-config-airbnb-base
+npx install-peerdeps --dev eslint-config-airbnb-base
 yarn add -D eslint-config-prettier eslint-plugin-prettier */
 
 //Setup Linting Configuration file
