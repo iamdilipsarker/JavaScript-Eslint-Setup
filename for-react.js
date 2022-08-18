@@ -34,7 +34,7 @@
 
 /*
  yarn add -D prettier
-yarn add -D babel-eslint
+yarn add eslint @babel/core @babel/eslint-parser -D or  npm install eslint @babel/core @babel/eslint-parser --save-dev
 npx install-peerdeps --dev eslint-config-airbnb
 yarn add -D eslint-config-prettier eslint-plugin-prettier 
 */
@@ -51,7 +51,7 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
     "prettier",
     "plugin:jsx-a11y/recommended"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 8
   },
