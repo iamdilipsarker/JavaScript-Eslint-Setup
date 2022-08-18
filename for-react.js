@@ -51,7 +51,9 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
     "prettier",
     "plugin:jsx-a11y/recommended"
   ],
-  "parser": "@babel/eslint-parser",
+   "module.exports": { 
+  "parser": "@babel/eslint-parser"
+  },
   "parserOptions": {
     "ecmaVersion": 8
   },
