@@ -3,16 +3,13 @@
 {
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnType": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnType": false,
-  "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
   "[javascriptreact]": {
-    "editor.formatOnType": false,
-  "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
   "javascript.validate.enable": false, //disable all built-in syntax checking

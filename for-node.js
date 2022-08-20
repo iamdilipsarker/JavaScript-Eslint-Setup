@@ -3,11 +3,9 @@
 {
    //config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnType": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnType": true,
-    "editor.formatOnPaste": true,
+    "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
   "editor.codeActionsOnSave": {
