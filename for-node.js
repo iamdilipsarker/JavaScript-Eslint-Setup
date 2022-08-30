@@ -6,10 +6,11 @@
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true
@@ -31,7 +32,7 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
 {
   "extends": ["prettier", "airbnb-base"],
   "parserOptions": {
-    "ecmaVersion": 12
+    "ecmaVersion": "latest"
   },
   "env": {
     "commonjs": true,

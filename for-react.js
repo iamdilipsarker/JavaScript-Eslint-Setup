@@ -5,12 +5,12 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.formatOnSave": false
+    
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+    "editor.formatOnSave": false
+   
   },
   "javascript.validate.enable": false, //disable all built-in syntax checking
   "editor.codeActionsOnSave": {
@@ -31,7 +31,7 @@
 
 /*
  yarn add -D prettier
-yarn add eslint @babel/core @babel/eslint-parser -D or  npm install eslint @babel/core @babel/eslint-parser --save-dev
+yarn add eslint @babel/core @babel/eslint-parser -D   or,  npm install eslint @babel/core @babel/eslint-parser --save-dev
 npx install-peerdeps --dev eslint-config-airbnb
 yarn add -D eslint-config-prettier eslint-plugin-prettier 
 */
@@ -43,21 +43,20 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
  {
   "extends": [
     "airbnb",
-    "airbnb/hooks",
-    "eslint:recommended",
     "prettier",
-    "plugin:jsx-a11y/recommended"
+    "plugin:react/recommended"
   ],
    "module.exports": { 
   "parser": "@babel/eslint-parser"
   },
-  "parserOptions": {
-    "ecmaVersion": 8
+   "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
   "env": {
     "browser": true,
     "node": true,
-    "es6": true,
+    "es2021": true,
     "jest": true
   },
   "rules": {
